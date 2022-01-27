@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gojek_ui/common/my_colors.dart';
 import 'package:gojek_ui/ui/screens/homepage.dart';
+import 'package:gojek_ui/ui/screens/splash_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         primaryColor: MyColors.darkGreen,
       ),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
